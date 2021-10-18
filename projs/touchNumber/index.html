@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>touch-number!</title>
+    <h1 class="header"> touch-number! </h1>
+
+
+
+</head>
+
+<body onload="initGame()">
+    <button class="newGame" onclick="newGameClicked(this)"> newGame </button>
+
+    <div class="levelSelector"> choose your level: <br>
+        <button class="difficulty" onclick="easyGame(this)"> Easy(16) </button>
+        <button class="difficulty" onclick="hardGame(this)"> Hard(25)</button>
+        <button class="difficulty" onclick="extremeGame(this)"> Extreme(36)</button>
+    </div>
+    <div class="tDiv">
+        <table border="1" cellpadding="10">
+            <tbody class="board">
+
+            </tbody>
+        </table>
+
+    </div>
+    <div class="container">
+        <div class="nextNum"> Next number </div>
+        <div class="time"> Time: 0 </div>
+    </div>
+
+    <script src="js/util.js"></script>
+    <script src="js/touch-number.js"></script>
+
+</body>
+
+</html>

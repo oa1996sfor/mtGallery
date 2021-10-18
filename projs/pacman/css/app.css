@@ -1,0 +1,52 @@
+body {
+  background-color: black;
+  color:white;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+img{
+  width: 30px;
+  height: 30px;
+  background-color: black;
+}
+
+
+p{
+  color: black;
+  margin-left: 35%;
+}
+
+.modal {
+  background-color: yellow;
+  border-radius: 30px;
+  display:none;
+  position: center;
+  top:10px;
+  right: 10px;
+  padding: 5px;
+  width: 300px;
+}
+
+.restartButton{
+  margin-left: 38%;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.restartButton:hover{
+  background-color: darkorange;
+}
+
+
+
+/* .formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+} */

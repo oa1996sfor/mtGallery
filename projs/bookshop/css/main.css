@@ -1,0 +1,43 @@
+
+
+button{
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+}
+
+button:hover{
+    background-color: darkgoldenrod;
+}
+
+.addBtn{
+    background-color: green;
+}
+.readBtn{
+    background-color: coral;
+}
+
+.updateBtn{
+    background-color: orange;
+}
+
+
+.deleteBtn{
+    background-color: violet;
+
+}
+
+.modal {
+    background-color: lightgray;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    height: 100%;
+    min-width: 300px;
+    text-align: center;
+}
+
+.modalBtn{
+    color: black;
+}
